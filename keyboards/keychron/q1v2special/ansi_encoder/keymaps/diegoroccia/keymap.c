@@ -51,6 +51,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   LCTL_T(KC_ESC) , KC_LGUI , KC_LALT , KC_SPC                                                  , KC_RALT , MO(3)   , KC_RCTL , KC_LEFT , KC_DOWN , KC_RGHT
 ),
 
+
 [WIN_FN] = LAYOUT_ansi_82(
   KC_TRNS , KC_BRID  , KC_BRIU , KC_TRNS , KC_TRNS , RGB_VAD , RGB_VAI , KC_MPRV , KC_MPLY , KC_MNXT , KC_MUTE , KC_VOLD , KC_VOLU , KC_INS  ,           RGB_TOG,
   KC_TRNS , KC_TRNS  , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS , KC_TRNS ,           KC_TRNS,
